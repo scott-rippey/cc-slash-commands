@@ -10,7 +10,7 @@ A collection of reusable slash commands that work across all your projects via a
 
 1. Open your **main development folder** in your IDE (Cursor, VS Code, etc.)
 
-2. Run this in the terminal to clone the repo:
+2. In the Claude Code terminal, run:
    ```
    git clone https://github.com/scott-rippey/cc-slash-commands.git "slash commands"
    ```
