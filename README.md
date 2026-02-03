@@ -32,11 +32,15 @@ Your Dev Folder/
 
 ### Setup
 
+Run once per machine to enable these commands globally.
+
 | Command | Description |
 |---------|-------------|
-| `/setup-slash-commands` | **Run first!** Set up these commands as user-level |
+| `/setup-slash-commands` | Create symlink so these commands work in every project |
 
 ### Session Tracking
+
+Keep a rolling log of the last 5 sessions in `docs/SESSION_LOG.md`. Use `/log` at the end of a session, `/catchup` at the start of the next one.
 
 | Command | Description |
 |---------|-------------|
@@ -52,6 +56,8 @@ Audit CLAUDE.md and documentation health. All project documentation should live 
 | `/audit` | Audit CLAUDE.md and documentation health |
 
 ### Git Worktree Workflow
+
+Keep your main branch clean by doing all development in a worktree. Run `/setup-worktree` once per project to create a `dev` worktree, then use `/push` and `/merge` to manage changes.
 
 | Command | Description |
 |---------|-------------|
