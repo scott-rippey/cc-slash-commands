@@ -120,7 +120,7 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 ## Changelog
 
 ### v1.4.0
-- Simplified "Add New Commands" - just ask Claude to prompt you
+- Simplified "Add New Commands" - Claude will prompt you for what you need
 
 ### v1.3.0
 - `/log` now auto-cleans old entries, keeping only the 5 most recent
