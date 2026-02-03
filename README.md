@@ -20,14 +20,6 @@ A collection of reusable slash commands that work across all your projects via a
 
 That's it. The setup command detects your OS and creates the symlink automatically.
 
-```
-Your Dev Folder/
-  slash commands/    ← Cloned here, alongside your projects
-  project-a/
-  project-b/
-  project-c/
-```
-
 ## Included Commands
 
 ### Setup
