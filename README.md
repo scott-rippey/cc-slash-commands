@@ -61,6 +61,14 @@ Keep your main branch clean by doing all development in a worktree. Run `/setup-
 | `/new-feature` | Create a new feature branch worktree |
 | `/fix-worktree` | Fix worktree path after syncing between machines |
 
+### Create Your Own
+
+Add your own slash commands to this folder.
+
+| Command | Description |
+|---------|-------------|
+| `/new-command` | Create a new slash command file |
+
 ## How It Works
 
 **What's a symlink?** A symlink (symbolic link) is like a shortcut or alias. Instead of copying files, it points to where the real files live. Claude Code looks for commands in `~/.claude/commands/`, but that folder is just a pointer to this one.
@@ -85,11 +93,7 @@ Edit any `.md` file in this folder. Changes take effect immediately in all proje
 
 ### Add New Commands
 
-Open this folder in Claude Code and ask:
-
-> "Create a new slash command file called [name].md. Prompt me for what I want it to do, and use the other files here as reference for the format."
-
-Then use `/[name]` in any project.
+Open this folder in Claude Code and run `/new-command`. It will prompt you for a name and what you want it to do, then create a well-structured command file for you.
 
 ### Get Updates
 
@@ -120,7 +124,7 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 ## Changelog
 
 ### v1.4.0
-- Simplified "Add New Commands" - Claude will prompt you for what you need
+- Added `/new-command` - creates new slash commands by prompting you for what you need
 
 ### v1.3.0
 - `/log` now auto-cleans old entries, keeping only the 5 most recent
