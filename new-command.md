@@ -25,4 +25,4 @@ Apply these principles:
 
 **Step 4: Write the command file**
 
-Create the `.md` file in this folder. Use the other commands here as reference for tone and format - direct, conversational, no fluff.
+Create the `.md` file in this folder. Use the other commands here as reference for format.
