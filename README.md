@@ -8,14 +8,16 @@ A collection of reusable slash commands that work across all your projects via a
 
 ## Quick Setup
 
-1. Clone this repo into your **main development folder** (where all your projects live):
+1. Open your **main development folder** in your IDE (Cursor, VS Code, etc.)
+
+2. Run this in the terminal to clone the repo:
    ```
    git clone https://github.com/scott-rippey/cc-slash-commands.git "slash commands"
    ```
 
-2. Open the `slash commands/` folder in your IDE (Cursor, VS Code, etc.)
+3. Open the new `slash commands/` folder in Claude Code
 
-3. Run `/setup-slash-commands` in Claude Code
+4. Run `/setup-slash-commands`
 
 That's it. The setup command detects your OS and creates the symlink automatically.
 
