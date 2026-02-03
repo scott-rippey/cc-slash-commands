@@ -42,6 +42,11 @@ Your Dev Folder/
 |---------|-------------|
 | `/log` | Log session summary to docs/SESSION_LOG.md |
 | `/catchup` | Load recent session history to pick up where you left off |
+
+### Documentation
+
+| Command | Description |
+|---------|-------------|
 | `/audit` | Audit CLAUDE.md and documentation health |
 
 ### Git Worktree Workflow
