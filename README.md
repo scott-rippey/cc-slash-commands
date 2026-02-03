@@ -70,18 +70,19 @@ Keep your main branch clean by doing all development in a worktree. Run `/setup-
 
 ## How It Works
 
-```
-This folder (slash commands/)
-        ↓ symlink
-~/.claude/commands/
-        ↓ Claude Code reads from here
-Available in every project
-```
+**What's a symlink?** A symlink (symbolic link) is like a shortcut or alias. Instead of copying files, it points to where the real files live. Claude Code looks for commands in `~/.claude/commands/`, but that folder is just a pointer to this one.
 
-- **This folder**: Contains the actual `.md` command files
-- **~/.claude/commands**: Symlink pointing to this folder
-- **Claude Code**: Reads commands from ~/.claude/commands
-- **Result**: Edit commands here, instantly works in every project
+**Why put this in your dev folder?** So you can open it like any other project, edit the `.md` files directly, and even use Claude Code to help you customize commands. This folder is the master copy - edit here, and it works everywhere instantly.
+
+```
+Your Dev Folder/
+  slash commands/        ← The real files (edit here)
+  project-a/
+  project-b/
+
+~/.claude/commands/      ← Symlink pointing to "slash commands/"
+                           Claude Code reads from here
+```
 
 ## Customizing
 
