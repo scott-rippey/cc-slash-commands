@@ -87,7 +87,7 @@ Edit any `.md` file in this folder. Changes take effect immediately in all proje
 
 Open this folder in Claude Code and ask:
 
-> "Create a new slash command called [name] that [what you want it to do]. Save it as [name].md and use the other files here as a reference."
+> "Create a new slash command file called [name].md. Prompt me for what I want it to do, and use the other files here as reference for the format."
 
 Then use `/[name]` in any project.
 
