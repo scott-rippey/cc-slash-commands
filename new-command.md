@@ -25,4 +25,4 @@ Apply these principles:
 
 **Step 4: Write the command file**
 
-Save the `.md` file in the same folder where this command file (`new-command.md`) is located - that's the slash commands folder. Use the other commands there as reference for format.
+Save the `.md` file to `~/.claude/commands/[name].md`. Use the other commands there as reference for format.
