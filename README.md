@@ -86,14 +86,8 @@ Edit any `.md` file in this folder. Changes take effect immediately in all proje
 ### Add New Commands
 
 1. Create a new `.md` file (e.g., `my-command.md`)
-2. Add frontmatter:
-   ```markdown
-   ---
-   description: What this command does
-   ---
-
-   Your prompt instructions here...
-   ```
+2. Ask Claude Code to help you write it:
+   > "Create a slash command called my-command that [describe what you want it to do]. Look at the other .md files in this folder for the format."
 3. Use `/my-command` in any project
 
 ### Get Updates
