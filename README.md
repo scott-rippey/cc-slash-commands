@@ -30,18 +30,30 @@ Your Dev Folder/
 
 ## Included Commands
 
+### Setup
+
 | Command | Description |
 |---------|-------------|
 | `/setup-slash-commands` | **Run first!** Set up these commands as user-level |
+
+### Session Tracking
+
+| Command | Description |
+|---------|-------------|
 | `/log` | Log session summary to docs/SESSION_LOG.md |
 | `/catchup` | Load recent session history to pick up where you left off |
 | `/audit` | Audit CLAUDE.md and documentation health |
-| `/status` | Show git status and current state |
+
+### Git Worktree Workflow
+
+| Command | Description |
+|---------|-------------|
+| `/setup-worktree` | Set up git worktree structure for safe development |
 | `/push` | Push current work to dev branch |
 | `/merge` | Merge dev to main and sync local |
+| `/status` | Show git status and current state |
 | `/new-feature` | Create a new feature branch worktree |
-| `/setup-worktree` | Set up git worktree structure for safe development |
-| `/fix-worktree` | Fix worktree path after syncing to a different machine |
+| `/fix-worktree` | Fix worktree path after syncing between machines |
 
 ## How It Works
 
