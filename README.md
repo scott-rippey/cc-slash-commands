@@ -45,6 +45,8 @@ Your Dev Folder/
 
 ### Documentation
 
+Audit CLAUDE.md and documentation health. All project documentation should live in `/docs` from the project root.
+
 | Command | Description |
 |---------|-------------|
 | `/audit` | Audit CLAUDE.md and documentation health |
