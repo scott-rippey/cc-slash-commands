@@ -1,4 +1,4 @@
-# Claude Code Slash Commands
+# Claude Code Slash Commands `v1.1.0`
 
 User-level slash commands for [Claude Code](https://claude.ai/code). Set up once, available in **every project** automatically.
 
@@ -107,6 +107,14 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 - [Claude Code CLI](https://claude.ai/code) installed
 - macOS, Linux, or Windows
 - Git (standard git commands only - GitHub CLI `gh` is not required)
+
+## Changelog
+
+### v1.1.0
+- Removed GitHub CLI (`gh`) dependency from `/merge` - uses standard git only
+
+### v1.0.0
+- Initial release with core slash commands
 
 ## License
 
