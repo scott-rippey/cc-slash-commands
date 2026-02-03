@@ -106,6 +106,7 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 
 - [Claude Code CLI](https://claude.ai/code) installed
 - macOS, Linux, or Windows
+- Git (standard git commands only - GitHub CLI `gh` is not required)
 
 ## License
 
