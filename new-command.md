@@ -9,29 +9,20 @@ Help me create a new slash command. Guide me through this step by step.
 
 **Step 2: Ask me what I want this command to accomplish**
 - Let me describe it in plain language
-- Ask clarifying questions if my description is vague
+- Ask clarifying questions if my description is vague:
+  - What triggers this? What's the starting point?
+  - What should Claude do step by step?
+  - Should Claude ask me questions or just execute?
+  - What does "done" look like?
 
-**Step 3: Structure my idea into an effective prompt**
+**Step 3: Structure my idea into an effective Claude Code command**
 
-Apply these prompt engineering best practices from Anthropic:
-
-<best-practices>
-- **Be clear and direct**: Write instructions as if for a brilliant new employee with no context
-- **Provide context**: What is this task for? What does success look like?
-- **Use sequential steps**: Numbered lists ensure Claude follows the exact process
-- **Be specific about output**: If you want a specific format, say so explicitly
-- **Use XML tags if helpful**: Tags like `<instructions>`, `<example>`, `<output>` help Claude parse complex prompts
-</best-practices>
+Apply these principles:
+- **Clear task**: What should Claude do when this runs?
+- **Sequential steps**: If there's a workflow, number the steps
+- **Ask when unsure**: Don't assume - prompt the user for input when needed
+- **Define success**: What's the end result? What should Claude confirm?
 
 **Step 4: Write the command file**
 
-Create the `.md` file in this folder with:
-```
----
-description: [Brief description for the command menu]
----
-
-[The structured prompt instructions]
-```
-
-Use the other `.md` files in this folder as reference for tone and format.
+Create the `.md` file in this folder. Use the other commands here as reference for tone and format - direct, conversational, no fluff.
