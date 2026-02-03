@@ -49,7 +49,7 @@ Keep a rolling log of the last 5 sessions in `docs/SESSION_LOG.md`. Use `/log` a
 
 ### Documentation
 
-Audit CLAUDE.md and documentation health. All project documentation should live in `/docs` from the project root.
+Checks `CLAUDE.md` in the root and project documentation in `/docs`.
 
 | Command | Description |
 |---------|-------------|
