@@ -1,4 +1,4 @@
-# Claude Code Slash Commands `v1.2.0`
+# Claude Code Slash Commands `v1.3.0`
 
 User-level slash commands for [Claude Code](https://claude.ai/code). Set up once, available in **every project** automatically.
 
@@ -109,6 +109,10 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 - Git (standard git commands only - GitHub CLI `gh` is not required)
 
 ## Changelog
+
+### v1.3.0
+- `/log` now auto-cleans old entries, keeping only the 5 most recent
+- `/catchup` simplified to always load last 5 entries
 
 ### v1.2.0
 - Improved `/setup-worktree` and `/new-feature` with explicit naming instructions and examples

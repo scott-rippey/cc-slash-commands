@@ -47,5 +47,12 @@ Completed Stripe webhook integration and tested payment flows. Next: Twilio SMS 
 Set up Groundwork AI project structure and database schema. Next: PDF parsing for estimates.
 ```
 
+**After writing, cleanup old entries:**
+
+- This log is for recent context only, not permanent history
+- Keep only the 5 most recent date entries
+- If there are more than 5 entries after adding/updating, delete the oldest ones
+- The log should never have more than 5 `## YYYY-MM-DD` sections
+
 **After writing:**
 Confirm what you did: "Updated today's log" or "Created new entry for today" or "Log already current, no changes needed."

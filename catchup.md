@@ -7,7 +7,7 @@ Read `docs/SESSION_LOG.md` and catch me up on recent work.
 **Instructions:**
 
 1. Read `docs/SESSION_LOG.md`
-2. Focus on the most recent 3-5 entries (or last 7 days, whichever is less)
+2. Focus on the last 5 entries
 3. Give me a brief verbal summary:
    - What was the last thing worked on?
    - What was marked as "next"?
