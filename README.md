@@ -9,14 +9,13 @@ A collection of reusable slash commands that work across all your projects via a
 ## Quick Setup
 
 1. Clone this repo into your **main development folder** (where all your projects live):
-   ```bash
-   cd ~/Development  # or wherever you keep your projects
+   ```
    git clone https://github.com/scott-rippey/cc-slash-commands.git "slash commands"
    ```
 
-2. Open the `slash commands/` folder in Claude Code
+2. Open the `slash commands/` folder in your IDE (Cursor, VS Code, etc.)
 
-3. Run `/setup-slash-commands`
+3. Run `/setup-slash-commands` in Claude Code
 
 That's it. The setup command detects your OS and creates the symlink automatically.
 
@@ -97,12 +96,7 @@ Edit any `.md` file in this folder. Changes take effect immediately in all proje
 
 ### Get Updates
 
-```bash
-cd "slash commands"
-git pull
-```
-
-New and updated commands are immediately available everywhere.
+Open the `slash commands/` folder and run `git pull`. New and updated commands are immediately available everywhere.
 
 ## Manual Setup
 
