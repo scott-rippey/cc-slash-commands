@@ -85,16 +85,6 @@ Edit any `.md` file in this folder. Changes take effect immediately in all proje
 
 ### Add New Commands
 
-A slash command is just a `.md` file with a description and instructions:
-
-```markdown
----
-description: What this command does
----
-
-Instructions for Claude when this command is run...
-```
-
 Open this folder in Claude Code and ask:
 
 > "Create a new slash command file called [name].md. Prompt me for what I want it to do, and use the other files here as reference for the format."
