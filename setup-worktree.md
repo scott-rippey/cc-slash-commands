@@ -4,7 +4,7 @@ description: Set up git worktree structure for safe development
 
 Set up a git worktree workflow for this project:
 
-1. Get the EXACT name of the current project folder (e.g., if I'm in `/Users/me/Dev/my-app`, the name is `my-app`)
+1. Get the EXACT name of the current project folder by running `basename "$(git rev-parse --show-toplevel)"` — use this exact output, do NOT rename, normalize, or infer the name from package.json, git remote, or anything else
 2. Create a 'dev' branch if it doesn't exist
 3. Create a worktrees container folder adjacent to this project using the EXACT same name + `-worktrees` (e.g., `../my-app-worktrees/`)
 4. Create a worktree for the dev branch inside that container, using the EXACT same name + `-dev` (e.g., `../my-app-worktrees/my-app-dev/`)

@@ -8,7 +8,7 @@ Ask me what to name the feature (keep it short, lowercase, hyphens for spaces).
 
 Then:
 
-1. Get the EXACT base project name (e.g., if the main repo is `my-app` or you're in `my-app-worktrees/my-app-dev`, the base name is `my-app`)
+1. Get the EXACT base project name by running `basename "$(git rev-parse --show-toplevel)"` to find the main repo folder name — use this exact output, do NOT rename, normalize, or infer the name from package.json, git remote, or anything else. If you're in a worktree (e.g., `my-app-worktrees/my-app-dev`), this command returns the main repo folder name (`my-app`)
 2. Create a new branch named `feature-[name]` based on current dev or main
 3. Create a new worktree in the existing worktrees container: `../[base-name]-worktrees/[base-name]-feature-[name]/`
 4. Copy over any .env.example or .env.sample files
