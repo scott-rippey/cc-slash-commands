@@ -1,4 +1,4 @@
-# Claude Code Slash Commands `v1.4.0`
+# Claude Code Slash Commands `v1.5.0`
 
 User-level slash commands for [Claude Code](https://claude.ai/code). Set up once, available in **every project** automatically.
 
@@ -122,6 +122,9 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\commands" -Targe
 - Git (standard git commands only - GitHub CLI `gh` is not required)
 
 ## Changelog
+
+### v1.5.0
+- Fixed `/setup-worktree` and `/new-feature` to use `basename "$(git rev-parse --show-toplevel)"` for reliable folder name detection
 
 ### v1.4.0
 - Added `/new-command` - creates new slash commands by prompting you for what you need
